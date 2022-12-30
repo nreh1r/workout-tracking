@@ -5,8 +5,6 @@ import os
 
 load_dotenv()
 
-print(os.getenv("APP_ID"))
-
 headers = {
     "x-app-id": os.getenv("APP_ID"),
     "x-app-key": os.getenv("API_KEY"),
